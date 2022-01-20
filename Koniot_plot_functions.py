@@ -3,14 +3,11 @@ This script contains functions that are used only for plotting data.
 """
 
 # Modules
-import pandas as pd
 import matplotlib.pyplot as plt
 import matplotlib.lines as mlines
 import matplotlib.ticker as mticker
 import matplotlib
 matplotlib.use('Agg')
-import numpy as np
-from scipy.stats import sem
 
 
 # Create a fully parametrized function that plots single or multiple [x, y] distributions of points with the settings
